@@ -1,0 +1,32 @@
+#Arithmetic Operators
+def arthemetic():
+    p=a+b
+    q=a-b
+    r=a*b
+    s=a/b
+    t=a//b
+    u=a%b
+    print(p)
+    print(q)
+    print(r)
+    print(s)
+    print(t)
+    print(u)
+a=int(input())
+b=int(input())
+arthemetic()
+
+#Sqaure Root
+def square(n):
+    n=n*n
+    print(n)
+n=int(input())
+square(n)
+
+#Cube Root
+def cube(n):
+    n=n*n*n
+    print(n)
+n=int(input())
+cube(n)
+
